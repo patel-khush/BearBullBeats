@@ -1,0 +1,14 @@
+{
+  "name": "bearbullbeats",
+  "version": "1.0.0",
+  "description": "Audio-reactive candlestick and line-graph visualizer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/build.mjs && node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "devDependencies": { "esbuild": "^0.25.0" }
+}
